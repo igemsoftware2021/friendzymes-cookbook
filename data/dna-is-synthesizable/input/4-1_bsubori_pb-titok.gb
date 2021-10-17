@@ -1,0 +1,274 @@
+LOCUS       4-1:_BsubOri_pB-Titok   3171 bp ds-DNA     linear       02-SEP-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     Match           16..21
+                     /label="Forbidden sequence | GAAGAC"
+     misc_feature    16..21
+                     /label="BbsI bind"
+     GG              24..27
+                     /label="1"
+     misc_feature    36..41
+                     /label="BsaI bind"
+     Match           36..41
+                     /label="Forbidden sequence | GGTCTC"
+     GG              43..46
+                     /label="FR"
+     Match           47..52
+                     /label="Forbidden sequence | GAATTC"
+     misc_feature    47..52
+                     /label="EcoRi"
+     Match           47..52
+                     /label="Forbidden sequence | GAATTC"
+     misc_feature    53..341
+                     /label="pBS72 1410"
+     FR              53..3119
+                     /label="pBS72 repA fragment"
+     Match           391..396
+                     /label="Forbidden sequence | AAGCTT"
+     Match           391..396
+                     /label="Forbidden sequence | AAGCTT"
+     Match           472..477
+                     /label="Forbidden sequence | AAAAAA"
+     Match           562..567
+                     /label="Forbidden sequence | GAATTC"
+     Match           562..567
+                     /label="Forbidden sequence | GAATTC"
+     misc_feature    562..2496
+                     /label="Titok 2006 minimal replication origin"
+     Match           633..638
+                     /label="Forbidden sequence | AAAAAA"
+     Match           658..663
+                     /label="Forbidden sequence | AAAAAA"
+     Match           704..709
+                     /label="Forbidden sequence | TTTTTT"
+     Match           709..718
+                     /label="Repeated sequence | TTAAAAAAAA"
+     Match           711..716
+                     /label="Forbidden sequence | AAAAAA"
+     Match           841..846
+                     /label="Forbidden sequence | AAAAAA"
+     Match           852..857
+                     /label="Forbidden sequence | AAAAAA"
+     exon            1039..2002
+                     /label="Translation 1039-2002"
+     misc_feature    1039..2002
+                     /label="repA CDS"
+     CDS             1039..2002
+                     /label="Translation 1039-2002"
+     exon            1039..2002
+                     /label="Translation 1039-2002"
+     Match           1129..1134
+                     /label="Forbidden sequence | AAAAAA"
+     Match           1133..1142
+                     /label="Repeated sequence | AAGGGAAAGA"
+     Match           1134..1143
+                     /label="Repeated sequence | AGGGAAAGAA"
+     misc_feature    1188..1191
+                     /label="Change reverted"
+     Match           1197..1202
+                     /label="Forbidden sequence | AAAAAA"
+     Match           1197..1206
+                     /label="Repeated sequence | AAAAAACTTT"
+     Match           1198..1207
+                     /label="Repeated sequence | AAAAACTTTT"
+     Match           1230..1239
+                     /label="Repeated sequence | TATACCTTAC"
+     Match           1293..1298
+                     /label="Forbidden sequence | TTTTTT"
+     Match           1390..1395
+                     /label="Forbidden sequence | AAAAAA"
+     Match           1617..1622
+                     /label="Forbidden sequence | AAAAAA"
+     misc_feature    1635..1638
+                     /label="BbsI removed"
+     Match           1651..1656
+                     /label="Forbidden sequence | AAAAAA"
+     Match           1674..1683
+                     /label="Repeated sequence | TAAAAAAATG"
+     Match           1675..1680
+                     /label="Forbidden sequence | AAAAAA"
+     Match           1776..1785
+                     /label="Repeated sequence | AATCAAAAAA"
+     Match           1780..1785
+                     /label="Forbidden sequence | AAAAAA"
+     Match           1780..1789
+                     /label="Repeated sequence | AAAAAACAAA"
+     misc_feature    1848..1851
+                     /label="Change reverted"
+     Match           2001..2010
+                     /label="Repeated sequence | AGAAACAATT"
+     Match           2002..2011
+                     /label="Repeated sequence | GAAACAATTA"
+     Match           2003..2012
+                     /label="Repeated sequence | AAACAATTAA"
+     Match           2045..2050
+                     /label="Forbidden sequence | AAAAAA"
+     CDS             2071..2073
+                     /label="Translation 2071-2073"
+     exon            2071..2073
+                     /label="Translation 2071-2073"
+     Match           2095..2100
+                     /label="Forbidden sequence | TTTTTT"
+     misc_feature    2096..2389
+                     /label="Origin Region"
+     Match           2102..2111
+                     /label="Repeated sequence | TATTTAGAAA"
+     Match           2117..2122
+                     /label="Forbidden sequence | AAAAAA"
+     Match           2117..2126
+                     /label="Repeated sequence | AAAAAAATAT"
+     Match           2160..2167
+                     /label="Forbidden sequence | ATTTAAAT"
+     Match           2160..2167
+                     /label="Forbidden sequence | ATTTAAAT"
+     Match           2167..2176
+                     /label="Repeated sequence | TTTATTTAGA"
+     Match           2211..2220
+                     /label="Repeated sequence | ATTTAATGAG"
+     Match           2236..2245
+                     /label="Repeated sequence | AAAAATATTA"
+     Match           2273..2278
+                     /label="Forbidden sequence | GGGGGG"
+     Match           2280..2289
+                     /label="Repeated sequence | ATTAAAATTT"
+     Match           2281..2290
+                     /label="Repeated sequence | TTAAAATTTA"
+     Match           2282..2291
+                     /label="Repeated sequence | TAAAATTTAA"
+     Match           2283..2292
+                     /label="Repeated sequence | AAAATTTAAT"
+     Match           2319..2328
+                     /label="Repeated sequence | CTAATAAAAT"
+     Match           2371..2380
+                     /label="Repeated sequence | GGGATTAAAA"
+     Match           2372..2381
+                     /label="Repeated sequence | GGATTAAAAT"
+     Match           2373..2382
+                     /label="Repeated sequence | GATTAAAATT"
+     Match           2374..2383
+                     /label="Repeated sequence | ATTAAAATTT"
+     Match           2375..2384
+                     /label="Repeated sequence | TTAAAATTTA"
+     Match           2376..2385
+                     /label="Repeated sequence | TAAAATTTAA"
+     Match           2377..2386
+                     /label="Repeated sequence | AAAATTTAAT"
+     Match           2378..2387
+                     /label="Repeated sequence | AAATTTAATG"
+     Match           2379..2388
+                     /label="Repeated sequence | AATTTAATGA"
+     Match           2405..2414
+                     /label="Repeated sequence | TTAAGAAAAG"
+     Match           2412..2417
+                     /label="Forbidden sequence | AAGCTT"
+     Match           2412..2417
+                     /label="Forbidden sequence | AAGCTT"
+     misc_feature    complement(2449..2955)
+                     /label="pBS72_0020"
+     Match           2737..2746
+                     /label="Repeated sequence | ATGGAATTGA"
+     Match           2738..2747
+                     /label="Repeated sequence | TGGAATTGAT"
+     Match           2770..2775
+                     /label="Forbidden sequence | TTTTTT"
+     Match           2780..2789
+                     /label="Repeated sequence | AAAACAAACA"
+     Match           2802..2811
+                     /label="Repeated sequence | AGTCAATGTA"
+     Match           2803..2812
+                     /label="Repeated sequence | GTCAATGTAA"
+     Match           2835..2844
+                     /label="Repeated sequence | TAATTTCAAT"
+     Match           2836..2845
+                     /label="Repeated sequence | AATTTCAATC"
+     Match           2837..2846
+                     /label="Repeated sequence | ATTTCAATCC"
+     Match           2838..2847
+                     /label="Repeated sequence | TTTCAATCCC"
+     Match           2862..2871
+                     /label="Repeated sequence | GAAATTCTGG"
+     Match           2888..2897
+                     /label="Repeated sequence | GAAAGAATTT"
+     Match           2895..2900
+                     /label="Forbidden sequence | TTTTTT"
+     Match           2980..2989
+                     /label="Repeated sequence | GGAATAAAAA"
+     Match           2981..2990
+                     /label="Repeated sequence | GAATAAAAAT"
+     Match           2982..2991
+                     /label="Repeated sequence | AATAAAAATA"
+     Match           3057..3062
+                     /label="Forbidden sequence | TTTTTT"
+     Match           3105..3114
+                     /label="Repeated sequence | TGTTTTTCCA"
+     Match           3106..3115
+                     /label="Repeated sequence | GTTTTTCCAG"
+     misc_feature    3120..3125
+                     /label="ClaI"
+     GG              3126..3129
+                     /label="TS"
+     Match           3131..3136
+                     /label="Forbidden sequence | GAGACC"
+     misc_feature    complement(3131..3136)
+                     /label="Bsai bind"
+     GG              3145..3148
+                     /label="6"
+     Match           3151..3156
+                     /label="Forbidden sequence | GTCTTC"
+     misc_feature    complement(3151..3156)
+                     /label="BbsI bind"
+ORIGIN
+        1 ACATATACAG TGATGGAAGA CCCGGAGTTC CTAAGGGTCT CTAAAAGAAT TCAAAGTTTA
+       61 TACCTTACCT GGAACAAATG GTTGAAACAT ACGAGGCTAA TATCGGCTTA TTAGGAATAG
+      121 TCCCTGTACT AATAAAATCA GGTGGATCAG TTGATCAGTA TATTTTGGAC GAAGCTCGGA
+      181 AAGAATTTGG AGATGACTTG CTTAATTCCA CAATTAAATT AAGGGAAAGA ATAAAGCGAT
+      241 TTGATGTTCA AGGAATCACG GAAGAAGATA CTCATGATAA AGAAGCTCTA AAACTATTCA
+      301 ATAACCTTAC AATGGAATTG ATCGAAAGGG TGGAAGGTTA ATGGTACGAA AATTAGGGGA
+      361 TCTACCTAGA AAGCCACAAG GCGATAGGTC AAGCTTAAAG AACCCTTACA TGGATCTTAC
+      421 AGATTCTGAA AGTAAAGAAA CAACAGAGGT TAAACAAACA GAACCAAAAA GAAAAAAAGC
+      481 ATTGTTGAAA ACAATGAAAG TTGATGTTTC AATCCATAAT AAGATTAAAT CGCTGCACGA
+      541 AATTCTGGCA GCATCCGAAG GGAATTCATA TTACTTAGAG GATACTATTG AGAGAGCTAT
+      601 TGATAAGATG GTTGAGACAT TACCTGAGAG CCAAAAAACT TTTTATGAAT ATGAATTAAA
+      661 AAAAAGAACC AACAAAGGCT GAGACAGACT CCAAACGAGT CTGTTTTTTT AAAAAAAATA
+      721 TTAGGAGCAT TGAATATATA TTAGAGAATT AAGAAAGACA TGGGAATAAA AATATTTTAA
+      781 ATCCAGTAAA AATATGATAA GATTATTTCA GAATATGAAG AACTCTGTTT GTTTTTGATG
+      841 AAAAAACAAA CAAAAAAAAT CCACCTAACG GAATCTCAAT TTAACTAACA GCGGCCAAAC
+      901 TGAGAAGTTA AATTTGAGAA GGGGAAAAGG CGGATTTATA CTTGTATTTA ACTATCTCCA
+      961 TTTTAACATT TTATTAAACC CCATACAAGT GAAAATCCTC TTTTACACTG TTCCTTTAGG
+     1021 TGATCGCGGA GGGACATTAT GAGTGAAGTA AACCTAAAAG GAAATACAGA TGAATTAGTG
+     1081 TATTATCGAC AGCAAACCAC TGGAAATAAA ATCGCCAGGA AGAGAATCAA AAAAGGGAAA
+     1141 GAAGAAGTTT ATTATGTTGC TGAAACGGAA GAGAAGATAT GGACAGAAGA GCAAATAAAA
+     1201 AACTTTTCTT TAGACAAATT TGGTACGCAT ATACCTTACA TAGAAGGTCA TTATACAATC
+     1261 TTAAATAATT ACTTCTTTGA TTTTTGGGGC TATTTTTTAG GTGCTGAAGG AATTGCGCTC
+     1321 TATGCTCACC TAACTCGTTA TGCATACGGC AGCAAAGACT TTTGCTTTCC TAGTCTACAA
+     1381 ACAATCGCTA AAAAAATGGA CAAGACTCCT GTTACAGTTA GAGGCTACTT GAAACTGCTT
+     1441 GAAAGGTACG GTTTTATTTG GAAGGTAAAC GTCCGTAATA AAACCAAGGA TAACACAGAG
+     1501 GAATCCCCGA TTTTTAAGAT TAGACGTAAG GTTCCTTTGC TTTCAGAAGA ACTTTTAAAT
+     1561 GGAAACCCTA ATATTGAAAT TCCAGATGAC GAGGAAGCAC ATGTAAAGAA GGCTTTAAAA
+     1621 AAGGAAAAAG AGGGACTACC AAAGGTTTTG AAAAAAGAGC ACGATGAATT TGTTAAAAAA
+     1681 ATGATGGATG AGTCAGAAAC AATTAATATT CCAGAGGCCT TACAATATGA CACAATGTAT
+     1741 GAAGATATAC TCAGTAAAGG AGAAATTCGA AAAGAAATCA AAAAACAAAT ACCTAATCCT
+     1801 ACAACATCTT TTGAGAGTAT ATCAATGACA ACTGAAGAGG AAAAAGTCGA CAGTACTTTA
+     1861 AAAAGCGAAA TGCAAAATCG TGTCTCTAAG CCTTCTTTTG ATACCTGGTT TAAAAACACT
+     1921 AAGATCAAAA TTGAAAATAA AAATTGTTTA TTACTTGTAC CGAGTGAATT TGCATTTGAA
+     1981 TGGATTAAGA AAAGATATTT AGAAACAATT AAAACAGTCC TTGAAGAAGC TGGATATGTT
+     2041 TTCGAAAAAA TCGAACTAAG AAAAGTGCAA TAAACTGCTG AAGTATTTCA GCAGTTTTTT
+     2101 TTATTTAGAA ATAGTGAAAA AAATATAATC AGGGAGGTAT CAATATTTAA TGAGTACTGA
+     2161 TTTAAATTTA TTTAGACTGG AATTAATAAT TAACACGTAG ACTAATTAAA ATTTAATGAG
+     2221 GGATAAAGAG GATACAAAAA TATTAATTTC AATCCCTATT AAATTTTAAC AAGGGGGGGA
+     2281 TTAAAATTTA ATTAGAGGTT TATCCACAAG AAAAGACCCT AATAAAATTT TTACTAGGGT
+     2341 TATAACACTG ATTAATTTCT TAATGGGGGA GGGATTAAAA TTTAATGACA AAGAAAACAA
+     2401 TCTTTTAAGA AAAGCTTTTA AAAGATAATA ATAAAAAGAG CTTTGCGATT AAGCAAAACT
+     2461 CTTTACTTTT TCATTGACAT TATCAAATTC ATCGATTTCA AATTGTTGTT GTATCATAAA
+     2521 GTTAATTCTG TTTTGCACAA CCTTTTCAGG AATATAAAAC ACATCTGAGG CTTGTTTTAT
+     2581 AAACTCAGGG TCGCTAAAGT CAATGTAACG TAGCATATGA TATGGTATAG CTTCCACCCA
+     2641 AGTTAGCCTT TCTGCTTCTT CTGAATGTTT TTCATATACT TCCATGGGTA TCTCTAAATG
+     2701 ATTTTCCTCA TGTAGCAAGG TATGAGCAAA AAGTTTATGG AATTGATAGT TCCTCTCTTT
+     2761 TTCTTCAACT TTTTTATCTA AAACAAACAC TTTAACATCT GAGTCAATGT AAGCATAAGA
+     2821 TGTTTTTCCA GTCATAATTT CAATCCCAAA TCTTTTAGAC AGAAATTCTG GACGTAAATC
+     2881 TTTTGGTGAA AGAATTTTTT TATGTAGCAA TATATCCGAT ACAGCACCTT CTAAAAGCGT
+     2941 TGGTGAATAG GGCATTTTAC CTATCTCCTC TCATTTTGTG GAATAAAAAT AGTCATATTC
+     3001 GTCCATCTAC CTATCCTATT ATCGAACAGT TGAACTTTTT AATCAAGGAT CAGTCCTTTT
+     3061 TTTCATTATT CTTAAACTGT GCTCTTAACT TTAACAACTC GATTTGTTTT TCCAGCACTA
+     3121 TCGATAAGGT GAGACCATGG CGTGCGCTGA GTCTTCTGGA CACCTCGCGG T
+//
