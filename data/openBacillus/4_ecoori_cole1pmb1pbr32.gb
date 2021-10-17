@@ -1,0 +1,53 @@
+LOCUS       4:_EcoOri_ColE1pMB1pBR32 681 bp ds-DNA     linear       22-AUG-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    16..21
+                     /label="Bbsi bind"
+     Match           16..21
+                     /label="Forbidden sequence | GAAGAC"
+     GG              24..27
+                     /label="1"
+     misc_feature    36..41
+                     /label="Bsai bind"
+     Match           36..41
+                     /label="Forbidden sequence | GGTCTC"
+     GG              43..46
+                     /label="EO"
+     misc_feature    47..635
+                     /label="high-copy-number ColE1pMB1pBR322pUC origin of replication"
+     Match           56..61
+                     /label="Forbidden sequence | TTTTTT"
+     Match           89..94
+                     /label="Forbidden sequence | AAAAAA"
+     Match           368..373
+                     /label="Forbidden sequence | GGGGGG"
+     Match           615..620
+                     /label="Forbidden sequence | GGGGGG"
+     Match           633..638
+                     /label="Forbidden sequence | AAAAAA"
+     GG              636..639
+                     /label="FR"
+     Match           641..646
+                     /label="Forbidden sequence | GAGACC"
+     misc_feature    complement(641..646)
+                     /label="Bsai bind"
+     GG              655..658
+                     /label="6"
+     Match           661..666
+                     /label="Forbidden sequence | GTCTTC"
+     misc_feature    complement(661..666)
+                     /label="Bbsi bind"
+ORIGIN
+        1 ACCCTGGTCT GGTCAGAAGA CGTGGAGCAC AGCAGGGTCT CTACTATTGA GATCCTTTTT
+       61 TTCTGCGCGT AATCTGCTGC TTGCAAACAA AAAAACCACC GCTACCAGCG GTGGTTTGTT
+      121 TGCCGGATCA AGAGCTACCA ACTCTTTTTC CGAAGGTAAC TGGCTTCAGC AGAGCGCAGA
+      181 TACCAAATAC TGTCCTTCTA GTGTAGCCGT AGTTAGGCCA CCACTTCAAG AACTCTGTAG
+      241 CACCGCCTAC ATACCTCGCT CTGCTAATCC TGTTACCAGT GGCTGCTGCC AGTGGCGATA
+      301 AGTCGTGTCT TACCGGGTTG GACTCAAGAC GATAGTTACC GGATAAGGCG CAGCGGTCGG
+      361 GCTGAACGGG GGGTTCGTGC ACACAGCCCA GCTTGGAGCG AACGACCTAC ACCGAACTGA
+      421 GATACCTACA GCGTGAGCTA TGAGAAAGCG CCACGCTTCC CGAAGGGAGA AAGGCGGACA
+      481 GGTATCCGGT AAGCGGCAGG GTCGGAACAG GAGAGCGCAC GAGGGAGCTT CCAGGGGGAA
+      541 ACGCCTGGTA TCTTTATAGT CCTGTCGGGT TTCGCCACCT CTGACTTGAG CGTCGATTTT
+      601 TGTGATGCTC GTCAGGGGGG CGGAGCCTAT GGAAAAAAAT GAGACCACGG GCTTCGCTCC
+      661 GTCTTCTATC GGCTGAGGGA T
+//

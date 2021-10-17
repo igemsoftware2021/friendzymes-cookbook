@@ -1,0 +1,77 @@
+LOCUS       3a:_Ecoli_kanR          1052 bp ds-DNA     linear       22-AUG-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     misc_feature    1..19
+                     /label="5primeBuffer"
+     misc_feature    20..25
+                     /label="BbsI Bind"
+     Match           20..25
+                     /label="Forbidden sequence | GAAGAC"
+     GG              28..31
+                     /label="2"
+     misc_feature    33..38
+                     /label="BsaI Bind"
+     Match           33..38
+                     /label="Forbidden sequence | GGTCTC"
+     GG              40..43
+                     /label="S"
+     Promoter        44..144
+                     /label="kanR_promoter"
+     CDS             145..960
+                     /label="Translation 145-960"
+     CDS             145..960
+                     /label="kanR"
+     exon            145..960
+                     /label="Translation 145-960"
+     exon            145..960
+                     /label="Translation 145-960"
+     GG              164..167
+                     /label="9"
+     Match           270..279
+                     /label="Repeated sequence | TCTGTATGGC"
+     Match           354..363
+                     /label="Repeated sequence | GCGTCTGAAC"
+     Match           712..721
+                     /label="Repeated sequence | CCGGATAGCG"
+     CDS             961..963
+                     /label="Translation 961-963"
+     exon            961..963
+                     /label="Translation 961-963"
+     misc_feature    964..1011
+                     /label="T7 terminator core"
+     Match           1005..1010
+                     /label="Forbidden sequence | TTTTTT"
+     GG              1012..1015
+                     /label="EO"
+     Match           1017..1022
+                     /label="Forbidden sequence | GAGACC"
+     misc_feature    complement(1017..1022)
+                     /label="BsaI Bind"
+     GG              complement(1024..1027)
+                     /label="6"
+     Match           1030..1035
+                     /label="Forbidden sequence | GTCTTC"
+     misc_feature    complement(1030..1035)
+                     /label="BbsI Bind"
+     misc_feature    1036..1052
+                     /label="3primeBuffer"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGCG AAGACACGGA GTGGTCTCAG CAAttgtgtc tcaaaatctc
+       61 tgatgttaca ttgcacaaga taaaaatata tcatcatgaa caataaaact gtctgcttac
+      121 ataaacagta atacaagggg tgttatgagc catattcagc gtgagacaag ctgtagccgt
+      181 ccgcgtctga acagcaacat ggatgcggat ctgtatggct ataaatgggc gcgtgataac
+      241 gtgggtcaga gcggcgcgac catttatcgt ctgtatggca aaccggatgc gccggaactg
+      301 tttctgaaac atggcaaagg cagcgtggcg aacgatgtga ccgatgaaat ggtgcgtctg
+      361 aactggctga ccgaatttat gccgctgccg accattaaac attttattcg caccccggat
+      421 gatgcgtggc tgctgaccac cgcgattccg ggcaagaccg cgtttcaggt gctggaagaa
+      481 tatccggata gcggcGAGAa cattgtggat gcgctggccg tgtttctgcg tcgtctgcat
+      541 agcattccgg tgtgcaactg cccgtttaac agcgatcgtg tgtttcgtct ggcccaggcg
+      601 cagagccgta tgaacaacgg cctggtggat gcgagcgatt ttgatgatga acgtaacggc
+      661 tggccggtgg aacaggtgtg gaaagaaatg cataaactgc tgccgtttag cccggatagc
+      721 gtggtgaccc acggcgattt tagcctggat aacctgattt tcgatgaagg caaactgatt
+      781 ggctgcattg atgtgggccg tgtgggcatt gcggatcgtt atcaggatct ggccattctg
+      841 tggaactgcc tgggcgaatt tagcccgagc ctgcaaaaac gtctgtttca gaaatatggc
+      901 attgataatc cggatatgaa caaactgcaa tttcatctga tgctggatga atttttctaa
+      961 taaCTAGCAT AACCCCTTGG GGCCTCTAAA CGGGTCTTGA GGGGTTTTTT GACTAAGAGA
+     1021 CCTCGCTATG TCTTCGTCAT AGCTGTTTCC TG
+//

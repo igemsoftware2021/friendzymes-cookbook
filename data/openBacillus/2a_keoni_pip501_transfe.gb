@@ -1,0 +1,54 @@
+LOCUS       2a:_Keoni_pIP501_transfe 417 bp ds-DNA     linear       22-AUG-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     Match           16..21
+                     /label="Forbidden sequence | GAAGAC"
+     misc_feature    24..27
+                     /label="2"
+     Match           36..41
+                     /label="Forbidden sequence | GGTCTC"
+     misc_feature    43..48
+                     /label="Bsai bind"
+     Match           43..48
+                     /label="Forbidden sequence | GGTCTC"
+     misc_feature    50..53
+                     /label="PG"
+     gene            complement(54..69)
+                     /label="pRE25p23"
+     CDS             complement(54..69)
+                     /label="orf?"
+     exon            complement(54..69)
+                     /label="Translation 69-54"
+     misc_feature    54..372
+                     /label="oriT"
+     misc_feature    141..174
+                     /label="TraN binding site"
+     misc_feature    208..218
+                     /label="-35"
+     misc_feature    226..263
+                     /label="plasmid transfer origin"
+     oriT            complement(226..263)
+                     /label="pIP501 plasmid transfer origin"
+     misc_feature    235..247
+                     /label="-10"
+     misc_feature    373..376
+                     /label="ES"
+     Match           378..383
+                     /label="Forbidden sequence | GAGACC"
+     misc_feature    complement(378..383)
+                     /label="Bsai bind"
+     misc_feature    complement(391..394)
+                     /label="6"
+     Match           397..402
+                     /label="Forbidden sequence | GTCTTC"
+     misc_feature    complement(397..402)
+                     /label="BbsI Bind"
+ORIGIN
+        1 TAGTATGTTG ACCCGGAAGA CAGGGAGTTG CGTGTGGTCT CTGGTCTCTC GAAgatcttg
+       61 attttccatg aaatacgcct cctaatatat tgtgtaactc tatcatatta tattattttt
+      121 ctaaaatcaa taaatataaa cggaaatgtc aggttaaaca tatttacttt tataatgata
+      181 agtggtaaaa ttaatttatt aaggattccc ttagattatt tactaagggc gcacttatac
+      241 gcagtaactt cgttacttcg tatttatgct ataaaactta actgttagtt agttttatcg
+      301 tcaagcgtgt ttgttaaaat tcgctacgct catgtttgaa aagaaagaga ggtgatacaa
+      361 ttggcaatct tcGCAATGAG ACCTGTATTA CGCTagGTCT TCCATGTGGG TAGAGAC
+//

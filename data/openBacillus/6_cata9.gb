@@ -1,0 +1,73 @@
+LOCUS       6:_CatA9                1049 bp ds-DNA     linear       22-AUG-2021
+DEFINITION  .
+FEATURES             Location/Qualifiers
+     Match           16..21
+                     /label="Forbidden sequence | GAAGAC"
+     GG              16..21
+                     /label="BbsI bind"
+     GG              24..27
+                     /label="1"
+     misc_feature    36..40
+                     /label="BtgzI bind"
+     Match           36..41
+                     /label="Forbidden sequence | GCGATG"
+     misc_feature    41..46
+                     /label="BsaI bind"
+     Match           41..46
+                     /label="Forbidden sequence | GGTCTC"
+     GG              48..51
+                     /label="TS"
+     GG              52..55
+                     /label="-TS"
+     misc_feature    complement(56..706)
+                     /label="CatA9 CDS"
+     CDS             complement(56..706)
+                     /label="Translation 706-56"
+     exon            complement(56..706)
+                     /label="Translation 706-56"
+     misc_feature    complement(56..994)
+                     /label="CatA9 fragment"
+     Match           784..789
+                     /label="Forbidden sequence | TTTTTT"
+     Match           851..860
+                     /label="Repeated sequence | TCGTTTGTTG"
+     Match           900..905
+                     /label="Forbidden sequence | AAAAAA"
+     Match           920..925
+                     /label="Forbidden sequence | TTTTTT"
+     GG              995..998
+                     /label="-5C"
+     GG              999..1002
+                     /label="5C"
+     Match           1004..1009
+                     /label="Forbidden sequence | GAGACC"
+     GG              complement(1004..1009)
+                     /label="Bsai bind"
+     Match           1009..1014
+                     /label="Forbidden sequence | CATCGC"
+     GG              1023..1026
+                     /label="6"
+     Match           1029..1034
+                     /label="Forbidden sequence | GTCTTC"
+     misc_feature    complement(1029..1034)
+                     /label="Bbsi bind"
+ORIGIN
+        1 CGGTCTAACA CGGAAGAAGA CGCGGAGGAT GGTATGCGAT GGTCTCTAAG GAGCGTTATA
+       61 AAAGCCAGTC ATTAGGCCTA TCTGACAATT CCTGAATAGA GTTCATAAAC AATCCTGCAT
+      121 GATAACCATC ACAAACAGAA TGATGTACCT GTAAAGATAG CGGTAAATAT ATTGAATTAC
+      181 CTTTATTAAT GAATTTTCCT GCTGTAATAA TGGGTAGAAG GTAATTACTA TTATTATTGA
+      241 TATTTAAGTT AAACCCAGTA AATGAAGTCC ATGGAATAAT AGAAAGAGAA AAAGCATTTT
+      301 CAGGTATAGG TGTTTTGGGA AACAATTTCC CCGAACCATT ATATTTCTCT ACATCAGAAA
+      361 GGTATAAATC ATAAAACTCT TTGAAGTCAT TCTTTACAGG AGTCCAAATA CCAGAGAATG
+      421 TTTTAGATAC ACCATCAAAA ATTGTATAAA GTGGCTCTAA CTTATCCCAA TAACCTAACT
+      481 CTCCGTCGCT ATTGTAACCA GTTCTAAAAG CTGTATTTGA GTTTATCACC CTTGTCACTA
+      541 AGAAAATAAA TGCAGGGTAA AATTTATATC CTTCTTGTTT TATGTTTCGG TATAAAACAC
+      601 TAATATCAAT TTCTGTGGTT ATACTAAAAG TCGTTTGTTG GTTCAAATAA TGATTAAATA
+      661 TCTCTTTTCT CTTCCAATTG TCTAAATCAA TTTTATTAAA GTTCATTTGA TATGCCTCCT
+      721 AAATTTTTAT CTAAAGTGAA TTTAGGAGGC TTACTTGTCT GCTTTCTTCA TTAGAATCAA
+      781 TCCTTTTTTA AAAGTCAATA TTACTGTAAC ATAAATATAT ATTTTAAAAA TATCCCACTT
+      841 TATCCAATTT TCGTTTGTTG AACTAATGGG TGCTTTAGTT GAAGAATAAA GACCACATTA
+      901 AAAAATGTGG TCTTTTGTGT TTTTTTAAAG GATTTGAGCG TAGCGAAAAA TCCTTTTCTT
+      961 TCTTATCTTG ATAATAAGGG TAACTATTGC CGATCTCCAT GATGAGACCA TCGCTGCAAT
+     1021 TCCGCTACGT CTTCGGAACT ACATCGGTA
+//

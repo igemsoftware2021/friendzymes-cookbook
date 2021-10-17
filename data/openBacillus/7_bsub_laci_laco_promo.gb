@@ -1,0 +1,110 @@
+LOCUS       7:_Bsub_LacI_LacO_Promo 1715 bp ds-DNA     linear       22-AUG-2021
+DEFINITION  .
+SOURCE      synthetic DNA construct                                            
+  ORGANISM  synthetic DNA construct                                            
+FEATURES             Location/Qualifiers
+     Match           20..25
+                     /label="Forbidden sequence | GAAGAC"
+     misc_feature    20..25
+                     /label="BbsI Bind"
+     GG              28..31
+                     /label="2"
+     misc_feature    39..44
+                     /label="BtgzI bind"
+     Match           39..44
+                     /label="Forbidden sequence | GCGATG"
+     Match           44..49
+                     /label="Forbidden sequence | GGTCTC"
+     misc_feature    44..49
+                     /label="BsaI Bind"
+     GG              51..54
+                     /label="A"
+     GG              55..58
+                     /label="rec5"
+     misc_feature    55..1569
+                     /label="pHT43 LacI fragment"
+     CDS             complement(79..1161)
+                     /label="lacI CDS"
+     CDS             complement(79..1161)
+                     /label="Translation 1161-79"
+     exon            complement(79..1161)
+                     /label="Translation 1161-79"
+     exon            complement(79..1161)
+                     /label="Translation 1161-79"
+     misc_feature    196..201
+                     /label="Removed_BsmBI"
+     misc_binding    400..408
+                     /label="DnaA binding site"
+     Match           1344..1351
+                     /label="Forbidden sequence | ATTTAAAT"
+     Match           1344..1351
+                     /label="Forbidden sequence | ATTTAAAT"
+     Match           1359..1364
+                     /label="Forbidden sequence | TTTTTT"
+     Match           1405..1410
+                     /label="Forbidden sequence | GGTACC"
+     Match           1405..1410
+                     /label="Forbidden sequence | GGTACC"
+     Match           1491..1496
+                     /label="Forbidden sequence | TTTTTT"
+     protein_bind    1545..1569
+                     /label="The lac repressor binds to the lac operator to inhibit transcription in E. coli. This inhibition can be relieved by adding lactose or isopropyl-beta-D-thiogalactopyranoside (IPTG)."
+     GG              1570..1573
+                     /label="RBSLoc"
+     GG              1574..1577
+                     /label="Ins"
+     Match           1578..1584
+                     /label="Forbidden sequence | GCAGGTG"
+     misc_feature    complement(1578..1584)
+                     /label="AarI Bind"
+     Match           1588..1593
+                     /label="Forbidden sequence | CATCGC"
+     misc_feature    complement(1588..1593)
+                     /label="BtgzI Bind"
+     Insulator       1594..1668
+                     /label="RiboJ54"
+     misc_feature    1599..1600
+                     /label="RiboJ_cutSite"
+     GG              complement(1669..1672)
+                     /label="RBSLOC"
+     Match           1674..1679
+                     /label="Forbidden sequence | GAGACC"
+     misc_feature    complement(1674..1679)
+                     /label="BsaI Bind"
+     misc_feature    complement(1688..1691)
+                     /label="6"
+     Match           1694..1699
+                     /label="Forbidden sequence | GTCTTC"
+     misc_feature    complement(1694..1699)
+                     /label="BbsI Bind"
+ORIGIN
+        1 GTAAAACGAC GGCCAGTGCG AAGACTTGGA GaatagacGC GATGGTCTCt GGAGATTCtc
+       61 acattaattg cgttgcgctc actgcccgct ttccagtcgg gaaacctgtc gtgccagctg
+      121 cattaatgaa tcggccaacg cgcggggaga ggcggtttgc gtattgggcg ccagggtggt
+      181 ttttcttttc accagagata cgggcaacag ctgattgccc ttcaccgcct ggccctgaga
+      241 gagttgcagc aagcggtcca cgctggtttg ccccagcagg cgaaaatcct gtttgatggt
+      301 ggttgacggc gggatataac atgagctatc ctcggtatcg tcgtatccca ctaccgagat
+      361 atccgcacca acgcgcagcc cggactcggt aatggcgcgc attgcgccca gcgccatctg
+      421 atcgttggca accagcatag cagtgggaac gatgccctca ttcagcattt gcatggtttg
+      481 ttgaaaaccg gacatggcac tccagtcgcc ttcccgttcc gctatcggct gaatttgatt
+      541 gcgagtgaga tatttatgcc agccagccag acgcagacgc gccgagacag aacttaatgg
+      601 gcccgctaac agcgcgattt gctggtgacc caatgcgacc agatgctcca cgcccagtcg
+      661 cgtaccatcc tcatgggaga aaataatact gttgatgggt gtctggtcag agacatcaag
+      721 aaataacgcc ggaacattag tgcaggcagc ttccacagca atggcatcct ggtcatccag
+      781 cggatagtta atgatcagcc cactgacgcg ttgcgcgaga agattgtgca ccgccgcttt
+      841 acaggcttcg acgccgcttc gttctaccat cgacaccacc acgctggcac ccagttgatc
+      901 ggcgcgagat ttaatcgccg cgacaatttg cgacggcgcg tgcagggcca gactggaggt
+      961 ggcaacgcca atcagcaacg actgtttgcc cgccagttgt tgtgccacgc ggttgggaat
+     1021 gtaattcagc tccgccatag ccgcttccac tttttcccgc gttttcgcag aaacgtggct
+     1081 ggcctggttc accacgcggg aaacggtctg ataagagaca ccggcatact ctgcgacatc
+     1141 gtataacgtt actggtttca tcaaaattgt ctccctccgt ttgaatattt gattgatcgt
+     1201 aaccagatga agcactcttt ccactatccc tacagtgtta tggcttgaac aatcacgaaa
+     1261 caataattgg tacgtacgat ctttcagccg actcaaacat caaatcttac aaatgtagtc
+     1321 tttgaaagta ttacatatgt aagatttaaa tgcaaccgtt ttttcggaag gaaatgatga
+     1381 cctcgtttcc accggaatta gcttggtacc agctattgta acataatcgg tacgggggtg
+     1441 aaaaagctaa cggaaaaggg agcggaaaag aatgatgtaa gcgtgaaaaa ttttttatct
+     1501 tatcacttga aattggaagg gagattcttt attataagaa ttgtggaatt gtgagcggat
+     1561 aacaattccT ACTAACAgca ggtgGTACAT CGCAGGGGTC AGTTGATGTG CTTTCAACTC
+     1621 TGATGAGTCA GTGATGACGA AACCCCCTCT ACAAATAATT TTGTTTAATA CTtGAGACCa
+     1681 catgatgCGC TAGGTCTTCG ACGACGATGC ACTGC
+//

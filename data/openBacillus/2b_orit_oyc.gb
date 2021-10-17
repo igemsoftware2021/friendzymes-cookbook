@@ -1,0 +1,92 @@
+LOCUS       2b:_oriT_OYC             936 bp ds-DNA     linear       22-AUG-2021
+DEFINITION  .
+ACCESSION   BBF10K_000448                                                      
+SOURCE      synthetic DNA construct                                            
+  ORGANISM  recombinant DNA                                                    
+FEATURES             Location/Qualifiers
+     misc_feature    1..20
+                     /label="FreeGenes dialout primer"
+     misc_feature    21..26
+                     /label="BbsI Bind"
+     Match           21..26
+                     /label="Forbidden sequence | GAAGAC"
+     GG              29..32
+                     /label="2"
+     protein_bind    33..38
+                     /label="BsaI"
+     Match           33..38
+                     /label="Forbidden sequence | GGTCTC"
+     protein_bind    40..43
+                     /label="BsaI"
+     protein_bind    44..49
+                     /label="AvrII"
+     Match           44..49
+                     /label="Forbidden sequence | CCTAGG"
+     Match           44..49
+                     /label="Forbidden sequence | CCTAGG"
+     origin          50..827
+                     /label="oriT"
+     Match           103..109
+                     /label="Forbidden sequence | GCTCTTC"
+     misc_feature    111..114
+                     /label="?"
+     Match           150..155
+                     /label="Forbidden sequence | CCCCCC"
+     Match           172..177
+                     /label="Forbidden sequence | AAAAAA"
+     CDS             complement(179..619)
+                     /label="traJ CDS"
+     gene            complement(179..619)
+                     /label="traJ gene"
+     exon            complement(179..619)
+                     /label="Translation 619-179"
+     exon            complement(179..619)
+                     /label="Translation 619-179"
+     Match           300..309
+                     /label="Repeated sequence | TCGTCGGTGA"
+     Match           474..480
+                     /label="Forbidden sequence | GCTCTTC"
+     misc_feature    482..485
+                     /label="?"
+     Match           781..786
+                     /label="Forbidden sequence | AAAAAA"
+     protein_bind    828..833
+                     /label="AgeI"
+     protein_bind    complement(834..837)
+                     /label="BsaI"
+     Match           839..844
+                     /label="Forbidden sequence | GAGACC"
+     protein_bind    complement(839..844)
+                     /label="BsaI"
+     misc_feature    complement(845..848)
+                     /label="6"
+     Match           851..856
+                     /label="Forbidden sequence | GTCTTC"
+     misc_feature    complement(851..856)
+                     /label="BbsI Bind"
+     primer_bind     complement(857..876)
+                     /label="FreeGenes dialout primer"
+     misc_feature    877..936
+                     /label="FreeGenes barcode"
+     protein_bind    898..915
+                     /label="I-SceI"
+     Match           930..935
+                     /label="Forbidden sequence | GGGGGG"
+ORIGIN
+        1 AAGAATTACT GACCCCTCGG GAAGACtaGG AGGGTCTCTC GAACCTAGGg cgatcgtctt
+       61 gccttgctcg tcggtgatgt acttcaccag ctccgcgaag tcgctcttct tgatggagcg
+      121 catggggacg tgcttggcaa tcacgcgcac cccccggccg ttttagcggc taaaaaagTC
+      181 ATGGCTCTGC CCTCGGGCGG ACCACGCCCA TCATGACCTT GCCAAGCTCG TCCTGCTTCT
+      241 CTTCGATCTT CGCCAGCAGG GCGAGGATCG TGGCATCACC GAACCGCGCC GTGCGCGGGT
+      301 CGTCGGTGAG CCAGAGTTTC AGCAGGCCGC CCAGGCGGCC CAGGTCGCCA TTGATGCGGG
+      361 CCAGCTCGCG GACGTGCTCA TAGTCCACGA CGCCCGTGAT TTTGTAGCCC TGGCCGACGG
+      421 CCAGCAGGTA GGCCGACAGG CTCATGCCGG CCGCCGCCGC CTTTTCCTCA ATCGCTCTTC
+      481 GTTCGTCTGG AAGGCAGTAC ACCTTGATAG GTGGGCTGCC CTTCCTGGTT GGCTTGGTTT
+      541 CATCAGCCAT CCGCTTGCCC TCATCTGTTA CGCCGGCGGT AGCCGGCCAG CCTCGCAGAG
+      601 CAGGATTCCC GTTGAGCACc gccaggtgcg aataagggac agtgaagaag gaacacccgc
+      661 tcgcgggtgg gcctacttca cctatcctgc ccggctgacg ccgttggata caccaaggaa
+      721 agtctacacg aaccctttgg caaaatcctg tatatcgtgc gaaaaaggat ggatataccg
+      781 aaaaaatcgc tataatgacc ccgaagcagg gTTATGCAGC GGAAGATACC GGTGCAATGA
+      841 GACCCGCTag GTCTTCAATA GGAACCTCTT ACGCGGAGAA GGGTAAGGGC CACTTATTAG
+      901 GGATAACAGG GTAATTCTCG TGGACTCGAG GGGGGG
+//
