@@ -11,39 +11,76 @@ Friendly tools for a friendly community. A collection of tutorials and genetic t
 
 This cookbook is a summarization of tutorials, ideas and tools that could help people beyond our own project. The repository is not only a collection of scripts for design automation but also as an Educational Tool, so newcomers in the Software Team, interested people from the Friendzymes, teams from iGEM/iGEM Design League, and others in the SynBio Community could all have a way to learn more about Poly, common problems, and how to design new tools!
 
+## Poly
+
+Poly is a new organism engineering library, written in the Go programming language. This package is at the core of our development process. The team relies on poly when implementing CI/CD pipelines, and we continue to enhance the core library with new features.
+
+## Actions
+
+We are currently building a toolchain with the help of continuous integration utilities called GitHub Actions. These discrete, modular functions enable construction of larger, composite pipelines for reliable, affordable, and automated engineering of organisms. Part of the cookbook is a collection of data samples and configuration files for use with these actions, comprising:
+
+- [codon-optimize]
+
+codon-optimize is a Github Action that receives a path for an amino acid fasta file (faa), a codon table with the absolute frequency of each triplet in JSON format, and a path and name of an output file that will be written. This action will use the provided codon table to codon optimize a given sequence.
+
+The cookbook contains starter materials for this action in [data/codon-optimize].
+
+- [dna-annotate]
+
+dna-annotate is a Github Action that receives a path for an input directory, a regex pattern that should be used to filter genbank files or another interetsing file name pattern, and a directory where the output will be written. This action will use all this information to annotate problematic parts of a given sequence.
+
+The cookbook contains starter materials for this action in [data/dna-annotate].
+
+- [dna-is-synthesizable]
+
+dna-is-synthesizable is a Github Action that receives a path for an input directory, a regex pattern that should be used to filter genbank files or another interesting file name pattern, a directory where the output will be written, and also username, password, clientId and clientSecret from [Integrated DNA Technologies (IDT)][IDT] API. This action will use this information to annotate problematic parts of a given sequence.
+
+The cookbook contains starter materials for this action in [data/dna-is-synthesizable].
+
 ## Notebooks
+
 Part of the cookbook is a collection of Colab notebooks, currently comprising:
 
-- Understanding Poly
+- [Understanding Poly][notebook-01]
 
 Poly is our key tool for the software. It was a planned decision to build workflows that integrate with Poly, to show ways to use the package, as well as create some new features; therefore, it is very important that you understand how the Poly package works and what its structure is in general before you begin manipulating it. Thus, we created this brief overview of Poly, its sub-packages, and a collection of use cases. We strongly recommend that you do the tutorials in the order they appear.
 
-- Codon Optimization
+- [Codon Optimization][notebook-02]
 
 A very common task for the design of parts is Codon Optimization, so here we will show how you can create customized Codon Tables and how you can use this to do codon optimization of a given Coding Sequence (CDS).
 
-- Annotation of problematic sequences
+- [Annotation of problematic sequences][notebook-03]
 
 Have you designed your sequence? Now it is time to remove small forbidden parts that can hinder you, not only when sequencing (e.g. hairpins, repetitive regions), but also when cloning (e.g. restriction binding sites). What this tutorial shows is the automatic annotation of these problems. It will give you a genbank file (with these annotations attached) that you can drop into your favorite viewer, like Benchling or Snapgene.
 
-- CDS fix
+- [CDS fix][notebook-04]
 
 In this notebook, you will input your CDS sequence(s) and receive your CDS corrected without the problematic sequences. This is done by replacing the codons with synonymous ones, thus keeping the same amino acid sequence at the end. Kind reminder that this tutorial was NOT written for non-coding sequences such as promoters, rbs, and terminators. If you have found problematic sequences in it, review case by case and be careful not to lose biological meaning.
 
-- Automatically create parts with correct overhangs
+- [Automatically create parts with correct overhangs][notebook-05]
 
 How about designing your final plasmid without worrying about each separate part and using a script to add the restriction binding sites, spacer, and overhangs? That’s what you find here!
 
-- Golden Gate Simulation
+- [Golden Gate Simulation][notebook-06]
 
 In this notebook, you will run a simulation of a Golden Gate reaction and see if everything is theoretically acceptable before physically synthesizing your parts.
 
 If you have some feature that you think will make this action better, please feel free to create an issue.
 
-## Poly
+---
 
-Poly is a Go package for engineering organisms and the core of our development process. The team relies on poly when implementing CI/CD (or devops) pipelines, and we continue to enhance the core library with new features.
+[codon-optimize]:             <https://github.com/open-science-global/codon-optimize>
+[dna-annotate]:               <https://github.com/open-science-global/dna-annotate>
+[dna-is-synthesizable]:       <https://github.com/open-science-global/dna-is-synthesizable>
+[IDT]:                        <https://www.idtdna.com>
 
-## Actions
+[data/codon-optimize]:        ./data/codon-optimize/
+[data/dna-is-synthesizable]:  ./data/dna-is-synthesizable/
+[data/dna-annotate]:          ./data/dna-annotate/
 
-We are currently building a toolchain with the help of continuous-integration utilities called GitHub Actions. These discrete, modular functions enable construction of larger, composite pipelines for reliable, affordable, and automated engineering of organisms. Part of the cookbook is a collection of data samples for use with these actions, comprising:
+[notebook-01]:                ./tutorials/01_Understanding_Poly.ipynb
+[notebook-02]:                ./tutorials/02_Codon_Optimization.ipynb
+[notebook-03]:                ./tutorials/03_Automatic_Annotation_Of_Problematic_Sequences.ipynb
+[notebook-04]:                ./tutorials/04_Fix_CDS.ipynb
+[notebook-05]:                ./tutorials/05_Create_Parts_With_Overhangs.ipynb
+[notebook-06]:                ./tutorials/06_Simulate_a_Golden_Gate_simulation_for_checking_parts.ipynb
