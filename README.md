@@ -38,4 +38,4 @@ How about designing your final plasmid without worrying about each separate part
 
 In this notebook, you will run a simulation of a Golden Gate reaction and see if everything is theoretically acceptable before physically synthesizing your parts.
 
-If you have some feature that you think will make this action better, please feel free to create an issue.
+If you have some feature that you think will make this cookbook better, please feel free to create an issue.
