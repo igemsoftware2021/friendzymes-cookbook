@@ -9,7 +9,7 @@
 
 Friendly tools for a friendly community. A collection of tutorials and genetic tools for synthetic biology.
 
-This cookbook is a summarize of tutorials, ideas and tools that could help people beyond our own project. The repository is not only a collection of scripts for design automation but also as an Educational Tool, so newcomers in the Software Team, interested people from the Friendzymes, teams from iGEM/iGEM Design League, and others in the SynBio Community could all have a way to learn more about Poly, common problems, and how to design new tools!
+This cookbook is a summarization of tutorials, ideas and tools that could help people beyond our own project. The repository is not only a collection of scripts for design automation but also as an Educational Tool, so newcomers in the Software Team, interested people from the Friendzymes, teams from iGEM/iGEM Design League, and others in the SynBio Community could all have a way to learn more about Poly, common problems, and how to design new tools!
 
 ## Notebooks
 Part of the cookbook is a collection of Colab notebooks, currently comprising:
