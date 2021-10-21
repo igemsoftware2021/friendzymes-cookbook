@@ -1,0 +1,34 @@
+name: Annotation
+
+on:
+  push:
+    branches: [ main ]
+
+
+jobs:
+
+  openBacillus:
+    runs-on: ubuntu-latest
+    steps: 
+    - uses: actions/checkout@v2
+    - name: Annotate problematic sequences
+      uses: Open-Science-Global/annotator@v1.0.0
+      with:
+        inputDir: openBacillus
+    - uses: actions/upload-artifact@v2
+      with:
+        name: openBacillus
+        path: output/
+        
+  openYeast:
+    runs-on: ubuntu-latest
+    steps: 
+    - uses: actions/checkout@v2
+    - name: Annotate problematic sequences
+      uses: Open-Science-Global/annotator@v0.6.1
+      with:
+        inputDir: openYeast
+    - uses: actions/upload-artifact@v2
+      with:
+        name: openYeast
+        path: output/
