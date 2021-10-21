@@ -38,4 +38,12 @@ How about designing your final plasmid without worrying about each separate part
 
 In this notebook, you will run a simulation of a Golden Gate reaction and see if everything is theoretically acceptable before physically synthesizing your parts.
 
-If you have some feature that you think will make this cookbook better, please feel free to create an issue.
+If you have some feature that you think will make this action better, please feel free to create an issue.
+
+## Poly
+
+Poly is a Go package for engineering organisms and the core of our development process. The team relies on poly when implementing CI/CD (or devops) pipelines, and we continue to enhance the core library with new features.
+
+## Actions
+
+We are currently building a toolchain with the help of continuous-integration utilities called GitHub Actions. These discrete, modular functions enable construction of larger, composite pipelines for reliable, affordable, and automated engineering of organisms. Part of the cookbook is a collection of data samples for use with these actions, comprising:
