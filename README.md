@@ -13,7 +13,7 @@ This cookbook is a summarization of tutorials, ideas and tools that could help p
 
 ## Poly
 
-Poly is a new organism engineering library, written in the Go programming language. This package is at the core of our development process. The team relies on poly when implementing CI/CD pipelines, and we continue to enhance the core library with new features.
+Poly is a new organism engineering library, written in the Go programming language. This package is at the core of our development process. The team relies on poly when implementing CI/CD pipelines, and we continue to enhance the core library with new features. If you're interested, we highly recommend you to take a look in [Poly repository](https://github.com/TimothyStiles/poly), and see with your own eyes this incredible piece of software!
 
 ## Actions
 
